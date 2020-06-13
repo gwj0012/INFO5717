@@ -19,15 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="moved files">
-      <change afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/views.py" afterDir="false" />
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="set up">
+      <change beforePath="$PROJECT_DIR$/.idea/INFO5717.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO5717.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/_base.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/dev.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/production.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/staging.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592028571334</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="set up">
+      <created>1592031092211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592031092212</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,7 +120,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moved files" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved files" />
+    <MESSAGE value="set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591651079732">
@@ -123,9 +132,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="838" y="418" key="Github.ShareDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591651308011" />
-    <state x="531" y="147" key="Vcs.Push.Dialog.v2" timestamp="1591651445547">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1592033640639">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1592033640639" />
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592031408992">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592031408992" />
     <state x="531" y="147" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591651445547" />
   </component>
 </project>
