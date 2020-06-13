@@ -19,21 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/localsearch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/localsearch/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/localsearch/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/localsearch/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/localsearch/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usercontrol/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/usercontrol/views.py" afterDir="false" />
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="moved files">
+      <change afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/migrations/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/app-usercontrol/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +50,17 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="ChangesTree.GroupingKeys" value="" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/localsearch-django/localsearch/apps" />
+      <recent name="$PROJECT_DIR$/localsearch-django" />
       <recent name="$PROJECT_DIR$/localsearch-django/localsearch" />
     </key>
   </component>
@@ -77,6 +75,28 @@
       <option name="presentableId" value="Default" />
       <updated>1591650398241</updated>
     </task>
+    <task id="LOCAL-00001" summary="moved files">
+      <created>1592027617508</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592027617508</updated>
+    </task>
+    <task id="LOCAL-00002" summary="moved files">
+      <created>1592027637179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592027637179</updated>
+    </task>
+    <task id="LOCAL-00003" summary="moved files">
+      <created>1592028571334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592028571334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,6 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="moved files" />
+    <option name="LAST_COMMIT_MESSAGE" value="moved files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591651079732">
