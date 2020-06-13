@@ -3,7 +3,7 @@ import subprocess
 from datetime import datetime
 
 
-def get_git_changeset_timestamp(absolute_path) :
+def get_git_changeset_timestamp(absolute_path):
     repo_dir = absolute_path
     git_log = subprocess.Popen(
         "git log --pretty=format : %ct --quiet -1 HEAD",

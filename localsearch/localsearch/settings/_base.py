@@ -10,14 +10,17 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.0/ref/settings/
 """
 
-#settings/_base.py
+# settings/_base.py
 import os
-from django.core.exceptions import ImproperlyConfigured
 
-def get_secret(setting) :
+from localsearch.exceptions import ImproperlyConfigured
+from localsearch.localsearch.apps.core.versioning import get_git_changeset_timestamp
+
+
+def get_secret(setting):
     """Get the secret variable or return explicit exception."""
     try:
-        return os.environ(setting)
+        return os.environ
     except KeyError:
         error_msg = f'Set the {setting} environment variable'
         raise ImproperlyConfigured(error_msg)
@@ -27,7 +30,6 @@ def get_secret(setting) :
 BASE_DIR = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 )
-
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -39,7 +41,6 @@ SECRET_KEY = 'xosak=#o+jyg*yhx$&4-%@xb8xab*3-_@xi)5=*d5o(*#=b=+p'
 DEBUG = False
 
 ALLOWED_HOSTS = []
-
 
 # Application definition
 
@@ -62,7 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'localsearch-django.urls'
+ROOT_URLCONF = 'localsearch.urls'
 
 TEMPLATES = [
     {
@@ -82,13 +83,12 @@ TEMPLATES = [
     },
 ]
 
-#added locale paths
+# added locale paths
 LOCALE_PATHS = [
     os.path.join(BASE_DIR, 'locale'),
 ]
 
-WSGI_APPLICATION = 'localsearch-django.wsgi.application'
-
+WSGI_APPLICATION = 'localsearch.wsgi.application'
 
 # Database
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
@@ -99,7 +99,6 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -118,7 +117,6 @@ AUTH_PASSWORD_VALIDATORS = [
         'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
-
 
 # Internationalization
 # https://docs.djangoproject.com/en/3.0/topics/i18n/
@@ -141,8 +139,5 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-#timestamp updating
-from INFO5717.localsearch-django.localsearch.apps.core.versioning import
-get_git_changeset_timestamp
 timestamp = get_git_changeset_timestamp(BASE_DIR)
 STATIC_URL = f'/static/{timestamp}'
