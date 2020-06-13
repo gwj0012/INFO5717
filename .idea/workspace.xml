@@ -19,40 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="versioning">
-      <change afterPath="$PROJECT_DIR$/localsearch/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/localsearch/localsearch/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/externals/apps/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/exceptions.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/externals/lib/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/externals/apps/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/externals/lib/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/core/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/core/versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/core/versioning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/indexing/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/core/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/indexing/versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/indexing/versioning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/plaintext/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/indexing/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/plaintext/versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/plaintext/versioning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/plaintext/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/usercontrol/versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/versioning.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/asgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/asgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/dev.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/production.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/dev.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/sample_secrets.json" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/production.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/secrets.json" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/sample_secrets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/staging.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/secrets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/staging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/site_static/site/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/settings/test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/site_static/site/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/manage.py" afterDir="false" />
-    </list>
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="versioning again.  found and fixed errors in code" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592036680587</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="versioning again.  found and fixed errors in code">
+      <created>1592039684435</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1592039684435</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,7 +141,8 @@
     <MESSAGE value="set up" />
     <MESSAGE value="settings change" />
     <MESSAGE value="versioning" />
-    <option name="LAST_COMMIT_MESSAGE" value="versioning" />
+    <MESSAGE value="versioning again.  found and fixed errors in code" />
+    <option name="LAST_COMMIT_MESSAGE" value="versioning again.  found and fixed errors in code" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592037919753">
@@ -190,10 +165,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="572" y="370" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1592036796674" />
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592035215833">
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592039697678">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592035215833" />
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592039697678" />
     <state x="531" y="147" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591651445547" />
   </component>
 </project>
