@@ -141,4 +141,8 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-STATIC_URL = '/static/'
+#timestamp updating
+from INFO5717.localsearch-django.localsearch.apps.core.versioning import
+get_git_changeset_timestamp
+timestamp = get_git_changeset_timestamp(BASE_DIR)
+STATIC_URL = f'/static/{timestamp}'

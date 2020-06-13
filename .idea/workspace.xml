@@ -20,6 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="settings change">
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/garrettwjennings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/apps/core/versioning.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/apps/core/versioning.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592034700754</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="settings change">
+      <created>1592035204319</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592035204319</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,10 +146,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.0.1440.900@0.0.1440.900" timestamp="1592033640639" />
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592031408992">
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592035215833">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592031408992" />
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592035215833" />
     <state x="531" y="147" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591651445547" />
   </component>
 </project>
