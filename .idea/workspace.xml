@@ -19,16 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="set up">
-      <change beforePath="$PROJECT_DIR$/.idea/INFO5717.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/INFO5717.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="settings change">
       <change beforePath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch-django/localsearch/settings/_base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/_base.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/dev.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/production.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/staging.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/localsearch-django/requirements/test.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +96,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592031092212</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="settings change">
+      <created>1592034700754</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592034700754</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,7 +120,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moved files" />
     <MESSAGE value="set up" />
-    <option name="LAST_COMMIT_MESSAGE" value="set up" />
+    <MESSAGE value="settings change" />
+    <option name="LAST_COMMIT_MESSAGE" value="settings change" />
   </component>
   <component name="WindowStateProjectService">
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591651079732">

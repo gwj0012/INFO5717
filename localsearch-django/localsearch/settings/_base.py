@@ -12,6 +12,16 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 #settings/_base.py
 import os
+from django.core.exceptions import ImproperlyConfigured
+
+def get_secret(setting) :
+    """Get the secret variable or return explicit exception."""
+    try:
+        return os.environ(setting)
+    except KeyError:
+        error_msg = f'Set the {setting} environment variable'
+        raise ImproperlyConfigured(error_msg)
+
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(
