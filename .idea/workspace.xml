@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="versioning again.  found and fixed errors in code">
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="fixing issues">
       <change beforePath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -138,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592114491589</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="fixing issues">
+      <created>1592115025100</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1592115025100</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -159,7 +166,8 @@
     <MESSAGE value="settings change" />
     <MESSAGE value="versioning" />
     <MESSAGE value="versioning again.  found and fixed errors in code" />
-    <option name="LAST_COMMIT_MESSAGE" value="versioning again.  found and fixed errors in code" />
+    <MESSAGE value="fixing issues" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixing issues" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1592114146855">
