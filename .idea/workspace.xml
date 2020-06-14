@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="fixing issues">
+    <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="login page">
+      <change afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -145,7 +147,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592115025100</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="login page">
+      <created>1592115418552</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1592115418552</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,17 +176,18 @@
     <MESSAGE value="versioning" />
     <MESSAGE value="versioning again.  found and fixed errors in code" />
     <MESSAGE value="fixing issues" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing issues" />
+    <MESSAGE value="login page" />
+    <option name="LAST_COMMIT_MESSAGE" value="login page" />
   </component>
   <component name="WindowStateProjectService">
     <state x="354" y="135" key="#Inspections" timestamp="1592114146855">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="354" y="135" key="#Inspections/0.0.1440.900@0.0.1440.900" timestamp="1592114146855" />
-    <state x="419" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592037919753">
+    <state x="419" y="259" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1592120646237">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="419" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592037919753" />
+    <state x="419" y="259" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1592120646237" />
     <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1591651079732">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
