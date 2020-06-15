@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c8a2fdf8-67b5-401b-bda4-116656257bcc" name="Default Changelist" comment="new user entry">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/localsearch/localsearch/apps/usercontrol/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -216,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592182337329</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="new user entry">
+      <created>1592182630711</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1592182630711</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -268,11 +276,15 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="572" y="370" key="VCS.ChangelistChooser/0.0.1440.900@0.0.1440.900" timestamp="1592036796674" />
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592182346932">
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2" timestamp="1592182649054">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592182346932" />
+    <state x="398" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1592182649054" />
     <state x="531" y="147" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1591651445547" />
     <state x="398" y="138" key="Vcs.Push.Dialog.v2/0.23.1440.816@0.23.1440.816" timestamp="1592123195827" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1592183973269">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1592183973269" />
   </component>
 </project>

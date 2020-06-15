@@ -61,11 +61,20 @@ p {
   background-color: #555555;
   color: white;
 }
+.column1, .column2, .column3{
+  width: 33%;
+  float: left;
+  margin: 2%;
+}
+.clear{
+  clear: left
+}
     </style>
 </head>
 	<body>
 	<header class="heading">Local Search Engine</header>
-		<form class="login">
+	<div class="column1"><p><br></p></div>
+	<form class="login column2">
 			<fieldset>
 			<legend class="formtitle">Login</legend><br>
 	<label for="textfield" class="login">Username:</label>
@@ -76,5 +85,6 @@ p {
 		<a href="forgotten password link" id="linklogin">Forgot Password?</a>
 			</fieldset>
 		</form>
+	<div class="column3"><p><br></p></div>
 	</body>
 </html>
