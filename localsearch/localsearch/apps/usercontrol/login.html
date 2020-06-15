@@ -18,7 +18,7 @@ p {
 	text-decoration-color: crimson;
 	text-emphasis-color: yellow;
 }
-h1 {
+.formtitle {
 	font-size: 22pt;
 	color: blue;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
@@ -63,17 +63,18 @@ h1 {
 }
     </style>
 </head>
-
 	<body>
 	<header class="heading">Local Search Engine</header>
 		<form class="login">
-		<h1>Login</h1>
+			<fieldset>
+			<legend class="formtitle">Login</legend><br>
 	<label for="textfield" class="login">Username:</label>
-		<input type="text" name="textfield" id="textfield" required><br>
+		<input type="text" name="textfield" id="textfield" required><br><br>
 	<label for="password" class="login">Password:</label>
-		<input class="password" name="password" required><br>
+		<input class="password" name="password" required><br><br>
 		<input name="Login" type="submit" class="button" formtarget="_self" align="middle">
 		<a href="forgotten password link" id="linklogin">Forgot Password?</a>
+			</fieldset>
 		</form>
 	</body>
 </html>
