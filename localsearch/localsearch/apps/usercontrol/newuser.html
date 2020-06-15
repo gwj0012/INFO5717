@@ -72,7 +72,7 @@ h1 {
 
 <form id="form1" name="form1" method="post">
   <fieldset>
-	  <legend>New User Registration</legend><br>
+	  <legend class="">New User Registration</legend><br>
 	<label for="textfield">First Name:</label>
   <input type="text" name="textfield" id="textfield"><br><br>
 	<label for="textfield3">Last Name:</label>
@@ -85,7 +85,11 @@ h1 {
   <input type="password" name="textfield2" id="textfield2"><br><br>
 	<label for="passreentry">Re-enter Password:</label>
 	<input type="password" name="passreentry" id="passreentry"><br><br>
-      <input type="submit" name="Submit">
+      <label for="question">Security Question:</label>
+		<input type="text" name="question" id="question"><br><br>
+		<label for="answer">Answer:</label>
+		<input type="text" name="anser" id="answer"><br><br>
+      <input type="submit" name="Submit" class="button">
 	</fieldset>
 </form>
 </body>
