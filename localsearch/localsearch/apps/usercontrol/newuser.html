@@ -64,13 +64,20 @@ p {
 .text {
   font-family: "arial, black, sans-serif";
 }
+.column1, .column2, .column3{
+  width: 33%;
+  float: left;
+}
+.clear{
+  clear: left
+}
 </style>
 </head>
 
 <body>
 <header class="heading">Local Search Engine</header>
-
-<form id="form1" name="form1" method="post">
+<div class="column1"><br></div>
+<form id="form1" name="form1" method="post" class="column2">
   <fieldset>
 	  <legend class="formtitle">New User Registration</legend><br>
 	<label for="textfield">First Name:</label>
@@ -92,5 +99,6 @@ p {
       <input type="submit" name="Submit" class="button">
 	</fieldset>
 </form>
+<div class="column3"><br></div>
 </body>
 </html>
