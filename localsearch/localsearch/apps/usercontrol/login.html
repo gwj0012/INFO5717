@@ -25,9 +25,8 @@ p {
 	text-align: center;
 }
 .heading {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	font-weight: 900;
 	text-align: center;
 	background-size: auto;
 	background-color: slategray;
@@ -68,10 +67,23 @@ p {
 .clear{
   clear: left
 }
+.headbutton {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: none;
+}
+.headbutton:hover {
+    background-color: white;
+    color: black;
+}
     </style>
 </head>
 	<body>
-	<header class="heading">Local Search Engine</header>
+	<header class="heading">
+		Local Search Engine<br>
+		<button class="headbutton" onClick="localsearch.localsearch.apps.indexing.search" title="New Search">New Search</button>
+	</header>
 	<div class="column1"><p><br></p></div>
 	<form class="login column2">
 			<fieldset>
