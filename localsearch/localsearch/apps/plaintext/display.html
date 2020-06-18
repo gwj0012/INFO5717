@@ -25,7 +25,7 @@ p {
 	text-align: center;
 }
 .heading {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
 	font-weight: 900;
 	text-align: center;
@@ -72,14 +72,24 @@ p {
 .center {
   text-align: center;
 }
+.headbutton {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: none;
+}
+.headbutton:hover {
+    background-color: white;
+    color: black;
+}
 	</style>
 </head>
 
 <body>
 	<header class="heading">
-		Local Search Engine
-		<button class="button">New Search</button>
-		<button class="button">Login</button>
+		Local Search Engine<br>
+		<button class="headbutton" title="Start a new search" onClick="localsearch.localsearch.apps.indexing.search">New Search</button>
+		<button class="headbutton" title="Admin login" onClick="localsearch.localsearch.apps.usercontrol.login">Login</button>
 	</header>
 	<p>The content of the documents in the database will be displayed here when they are recalled from the database.</p>
 </body>
