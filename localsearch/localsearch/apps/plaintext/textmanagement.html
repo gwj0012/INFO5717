@@ -71,7 +71,18 @@ p {
 .center {
   text-align: center;
 }
-	</style>
+</style>
+<script language="JavaScript">
+    function delcon()
+{
+    var con=confirm("This action cannot be undone.  Are you sure that you wish to delete this file from the database");
+    if (con==true)
+    {
+        alert("Deleted!");
+     }else
+        alert("Not deleted.")
+}
+</script>
 </head>
 
 <body>
@@ -97,7 +108,7 @@ p {
       <td>&nbsp;</td>
       <td>&nbsp;</td>
 		<td class="center">
-			<button class="button">Delete</button>
+			<button class="button" onClick="delcon();">Delete</button>
 			<button class="button">Modify</button>
 		</td>
     </tr>
