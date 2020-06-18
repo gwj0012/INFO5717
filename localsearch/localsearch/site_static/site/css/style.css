@@ -10,16 +10,15 @@ p {
 	text-decoration-color: crimson;
 	text-emphasis-color: yellow;
 }
-h1 {
+.formtitle {
 	font-size: 22pt;
 	color: blue;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
 	text-align: center;
 }
 .heading {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	font-weight: 900;
 	text-align: center;
 	background-size: auto;
 	background-color: slategray;
@@ -52,4 +51,21 @@ h1 {
 .button:hover {
   background-color: #555555;
   color: white;
+}
+.column1, .column2, .column3{
+  width: 33%;
+  float: left;
+}
+.clear{
+  clear: left
+}
+.headbutton {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: none;
+}
+.headbutton:hover {
+    background-color: white;
+    color: black;
 }
