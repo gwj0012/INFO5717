@@ -24,9 +24,8 @@ h1 {
 	text-align: center;
 }
 .heading {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	font-weight: 900;
 	text-align: center;
 	background-size: auto;
 	background-color: slategray;
@@ -60,14 +59,48 @@ h1 {
   background-color: #555555;
   color: white;
 }
+.headbutton {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: none;
+}
+.headbutton:hover {
+    background-color: white;
+    color: black;
+}
+.formtitle {
+	font-size: 22pt;
+	color: blue;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
+	text-align: center;
+}
     </style>
-<title>list of users</title>
+<script language="JavaScript">
+    function delcon()
+{
+    var con=confirm("This action cannot be undone.  Are you sure that you wish to delete this user from the database");
+    if (con==true)
+    {
+        alert("Deleted!");
+     }else
+        alert("Not deleted.")
+}
+</script>
+  <title>list of users</title>
 </head>
 
 <body>
-<header class="heading">Local Search Engine</header>
+<header class="heading">
+  Local Search Engine<br>
+
+</header>
 
 <table width="100%" border="1">
+ <caption class="formtitle">
+   Authorized User List
+   <button class="button" onClick="localsearch.localsearch.apps.usercontrol.newuser" title="Add New Admin User">Add New</button>
+ </caption>
   <tbody>
     <tr>
       <th height="25" scope="col">Username</th>
@@ -83,7 +116,7 @@ h1 {
       <td>&nbsp;</td>
         <td>&nbsp;</td>
       <td>&nbsp;</td>
-      <td align="center"> <img src="localsearch.localsearch.site_static.site.img.delete" width="50" height="16" alt="delete button"/></td>
+      <td align="center"><button class="button" title="Delete User" onClick="delcon();">Delete</button></td>
     </tr>
     <tr>
       <td height="25">&nbsp;</td>
