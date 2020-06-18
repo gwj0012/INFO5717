@@ -25,9 +25,8 @@ p {
 	text-align: center;
 }
 .heading {
-	font-size: 50px;
+	font-size: 75px;
 	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	font-weight: 900;
 	text-align: center;
 	background-size: auto;
 	background-color: slategray;
@@ -61,6 +60,16 @@ p {
   background-color: #555555;
   color: white;
 }
+.headbutton {
+    background-color: slategray;
+    color: white;
+    border: none;
+    padding: none;
+}
+.headbutton:hover {
+    background-color: white;
+    color: black;
+}
 .column1, .column2, .column3{
   width: 33%;
   float: left;
@@ -87,11 +96,11 @@ p {
 
 <body>
 	<header class="heading">
-		Local Search Engine
-		<button class="button">New Search</button>
-		<button class="button">Logout</button>
-        <button class="button" onClick="localsearch.localsearch.apps.usercontrol.userlist" title="User Management List">User Management</button>
-	</header>
+		Local Search Engine<br>
+        <button class="headbutton" onClick="localsearch.localsearch.apps.indexing.search" title="New Search">New Search</button>
+        <button class="headbutton" onClick="localsearch.localsearch.apps.usercontrol.userlist" title="User Management List">User Management</button>
+        <button class="headbutton" onClick="localsearch.localsearch.apps.indexing.search" title="Logout">Logout</button>
+    </header>
 	<table width="100%" border="1" summary="Administrative users may import, modify, or delete plain text documents from the database.">
   <caption class="formtitle">
     Plain Text Management
