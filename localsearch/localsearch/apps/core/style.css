@@ -38,8 +38,7 @@ p {
 	text-align:center;
 }
 .center {
-  margin: auto;
-  width: 50%;
+  align: center;
 }
 .button {
   background-color: white;
