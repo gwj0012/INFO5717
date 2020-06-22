@@ -16,3 +16,6 @@ function logoutcon() {
     }else
         alert("Logout aborted.")
 }
+function authuser() {
+    alert ("Only authorized users should attempt to log in to and use this system!!!")
+}
