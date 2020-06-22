@@ -28,3 +28,13 @@ function userlist() {
 function loadsearch() {
 ///to be filled in once the Django project is started///
 }
+function delcon2()
+{
+    var con=confirm("This action cannot be undone. " +
+    "Are you sure that you wish to delete this file from the database?");
+    if (con==true)
+    {
+        alert("Deleted!");
+     }else
+        alert("Not deleted.")
+}

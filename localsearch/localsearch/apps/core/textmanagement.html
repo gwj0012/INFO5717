@@ -8,17 +8,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Plain Text Manager</title>
 <link rel="stylesheet" type="text/css" href="style.css">
-<script language="JavaScript">
-    function delcon()
-{
-    var con=confirm("This action cannot be undone.
-    Are you sure that you wish to delete this file from the database?");
-    if (con==true)
-    {
-        alert("Deleted!");
-     }else
-        alert("Not deleted.")
-}
+<script language="JavaScript" src="javascript.js">
 </script>
 </head>
 
@@ -26,7 +16,7 @@
 	<header class="heading">
 		Local Search Engine<br>
         <button class="headbutton" onClick="location.href='userlist.html'" title="User Management List">User Management</button>
-        <button class="headbutton" onClick="location.href='search.html'" title="Logout">Logout</button>
+        <button class="headbutton" onClick="logoutcon()" title="Logout">Logout</button>
     </header>
 	<table width="100%" border="1" summary="Administrative users may import, modify, or delete plain text documents from the database.">
   <caption class="formtitle">
@@ -49,7 +39,7 @@
       <td>&nbsp;</td>
       <td>&nbsp;</td>
 		<td align="center">
-			<button class="button" onClick="delcon();">Delete</button>
+			<button class="button" onClick="delcon2();">Delete</button>
 			<button class="button">Modify</button>
 		</td>
     </tr>
@@ -60,7 +50,7 @@
       <td>&nbsp;</td>
       <td>&nbsp;</td>
 		<td align="center">
-			<button class="button" onClick="delcon();">Delete</button>
+			<button class="button" onClick="delcon2();">Delete</button>
 			<button class="button">Modify</button>
 		</td>
     </tr>
@@ -71,7 +61,7 @@
       <td>&nbsp;</td>
       <td>&nbsp;</td>
 		<td align="center">
-			<button class="button" onClick="delcon();">Delete</button>
+			<button class="button" onClick="delcon2();">Delete</button>
 			<button class="button">Modify</button>
 		</td>
     </tr>
@@ -82,7 +72,7 @@
       <td>&nbsp;</td>
       <td>&nbsp;</td>
 		<td align="center">
-			<button class="button" onClick="delcon();">Delete</button>
+			<button class="button" onClick="delcon2();">Delete</button>
 			<button class="button">Modify</button>
 		</td>
     </tr>
