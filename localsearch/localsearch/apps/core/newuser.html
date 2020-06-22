@@ -7,34 +7,35 @@
 	<meta name="keywords" content="new user, register new user, search engine, local search">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Register New User</title>
+	<script language="JavaScript" src="javascript.js"></script>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
 <header class="heading">
 	Local Search Engine<br>
-	<button class="headbutton" onClick="location.href='search.html'" title="Logout Admin User">Logout</button>
+	<button class="headbutton" onClick="logoutcon()" title="Logout Admin User">Logout</button>
 </header>
 <div class="column1"><br></div>
 <form id="form1" name="form1" method="post" class="column2">
   <fieldset>
 	  <legend class="formtitle">New User Registration</legend><br>
 	<label for="textfield">First Name:</label>
-  <input type="text" name="textfield" id="textfield"><br><br>
+  <input type="text" name="textfield" id="textfield" required><br><br>
 	<label for="textfield3">Last Name:</label>
-    <input type="text" name="textfield3" id="textfield3"><br><br>
+    <input type="text" name="textfield3" id="textfield3" required><br><br>
 	  <label for="email">Email:</label>
-	  <input type="text" name="email" id="email"><br><br>
+	  <input type="text" name="email" id="email" required><br><br>
 	<label for="username">Username:</label>
-	<input type="text" name="username" id="username"><br>
+	<input type="text" name="username" id="username" required><br>
     <br><label for="textfield2">Password:</label>
-  <input type="password" name="textfield2" id="textfield2"><br><br>
+  <input type="password" name="textfield2" id="textfield2" required><br><br>
 	<label for="passreentry">Re-enter Password:</label>
-	<input type="password" name="passreentry" id="passreentry"><br><br>
+	<input type="password" name="passreentry" id="passreentry" required><br><br>
       <label for="question">Security Question:</label>
-		<input type="text" name="question" id="question"><br><br>
+		<input type="text" name="question" id="question" required><br><br>
 		<label for="answer">Answer:</label>
-		<input type="text" name="anser" id="answer"><br><br>
+		<input type="text" name="anser" id="answer" required><br><br>
       <input type="submit" name="Submit" class="button">
 	</fieldset>
 </form>
