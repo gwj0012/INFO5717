@@ -7,24 +7,14 @@
 	<meta name="keywords" content="user list, search engine, local search">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
-<script language="JavaScript">
-    function delcon()
-{
-    var con=confirm("This action cannot be undone.  Are you sure that you wish to delete this user from the database?");
-    if (con==true)
-    {
-        alert("Deleted!");
-     }else
-        alert("Not deleted.")
-}
-</script>
+<script language="JavaScript" src="javascript.js"></script>
   <title>list of users</title>
 </head>
 
 <body>
 <header class="heading">
   Local Search Engine<br>
-  <button class="headbutton" onClick="location.href='search.html'" title="Logout Admin User">Logout</button>
+  <button class="headbutton" onClick="logoutcon();" title="Logout Admin User">Logout</button>
   <button class="headbutton" onClick="location.href='textmanagement.html'" title="Text Management">Text Management</button>
 </header>
 
