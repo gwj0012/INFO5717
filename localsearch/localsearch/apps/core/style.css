@@ -1,9 +1,9 @@
 @charset "UTF-8";
 /* CSS Document */
 body {
-	background-color: antiquewhite;
-	font-family: "arial", "sans=serif";
-	border: none;
+    font-family: "arial", "sans=serif";
+    border: none;
+    background-image: url("../../site_static/site/img/triangle-mosaic.png");
 }
 p {
 	font-size: 12pt;
@@ -11,19 +11,23 @@ p {
 	text-emphasis-color: yellow;
 }
 .formtitle {
-	font-size: 22pt;
-	color: blue;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	text-align: center;
+    font-size: 22pt;
+    color: black;
+    font-family: abril-fatface;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
 }
 .heading {
-	font-size: 75px;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial", "sans-serif";
-	text-align: center;
-	background-size: auto;
-	background-color: slategray;
-	color: white;
-	border: none;
+    font-size: 75px;
+    font-family: abril-fatface;
+    text-align: center;
+    background-size: auto;
+    color: white;
+    border: none;
+    background-image: url("../../site_static/site/img/mosaic.png");
+    font-style: normal;
+    font-weight: 400;
 }
 .link{
 	font-size: 8pt;
@@ -41,10 +45,10 @@ p {
   align: center;
 }
 .button {
-  background-color: white;
-  color: black;
-  border: 2px solid #555555;
-  padding: 3px;
+    background-color: white;
+    color: black;
+    border: 2px none #555555;
+    padding: 3px;
 }
 
 .button:hover {
@@ -59,10 +63,11 @@ p {
   clear: left
 }
 .headbutton {
-    background-color: slategray;
+    /* [disabled]background-color: slategray; */
     color: white;
     border: none;
     padding: none;
+    background: none;
 }
 .headbutton:hover {
     background-color: white;
