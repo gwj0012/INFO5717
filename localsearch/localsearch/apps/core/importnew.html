@@ -16,6 +16,22 @@
 			<button class="headbutton" title="New Search" onClick="location.href='search.html'">
 				New Search</button>
 	</header>
-
+<div class="column1"><p><br></p></div>
+	<form class="login column2" onsubmit="return check()" method="post">
+		<fieldset>
+		<legend class="formtitle">Import New Document</legend><br>
+		<label for="title">Title:</label>
+		<input type="text" name="title" id="title" required><br><br>
+	    <label for="author">Author:</label>
+		<input class="text" name="author" id="author" required><br><br>
+            <label for="publication">Publication Date:</label>
+            <input class="date" name="publication date" id="publication"><br><br>
+            <label for="import">Import Date:</label>
+            <input class="date" name="import date" id="import"><br><br>
+		<input name="Login" type="submit" class="button" formtarget="_self" align="middle"
+		onclick="location.href='login.html'">
+		</fieldset>
+	</form>
+	<div class="column3"><p><br></p></div>
 </body>
 </html>
