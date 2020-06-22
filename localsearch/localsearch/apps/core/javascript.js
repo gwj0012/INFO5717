@@ -6,7 +6,7 @@ function delcon() {
         alert("Deleted!");
      }else
         alert("Not deleted.")
-}
+}  ///this will be finished once the Django project is started///
 function logoutcon() {
     var con = confirm("Are you sure that you wish to logout from the admin system?");
     if (con == true)
@@ -21,4 +21,10 @@ function authuser() {
 }
 function newsearch() {
     alert ("You may now make a new search!")
+}
+function userlist() {
+///to be filled in once the Django project is started///
+}
+function loadsearch() {
+///to be filled in once the Django project is started///
 }
