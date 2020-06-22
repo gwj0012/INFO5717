@@ -19,3 +19,6 @@ function logoutcon() {
 function authuser() {
     alert ("Only authorized users should attempt to log in to and use this system!!!")
 }
+function newsearch() {
+    alert ("You may now make a new search!")
+}
