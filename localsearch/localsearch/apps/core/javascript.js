@@ -38,3 +38,6 @@ function delcon2()
      }else
         alert("Not deleted.")
 }
+function importnew() {
+    alert ("Imported file should be a .txt file.")
+}
