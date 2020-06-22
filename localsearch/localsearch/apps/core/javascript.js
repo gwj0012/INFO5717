@@ -22,9 +22,6 @@ function authuser() {
 function newsearch() {
     alert ("You may now make a new search!")
 }
-function userlist() {
-///to be filled in once the Django project is started this will load users with onload///
-}
 function loadsearch() {
 ///to be filled in once the Django project is started this will load search from db with onload///
 }
