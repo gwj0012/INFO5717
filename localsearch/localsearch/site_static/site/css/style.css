@@ -60,7 +60,7 @@ p {
   float: left;
 }
 .clear{
-  clear: left
+  clear: left;
 }
 .headbutton {
     /* [disabled]background-color: slategray; */
@@ -72,4 +72,7 @@ p {
 .headbutton:hover {
     background-color: white;
     color: black;
+}
+tr:hover {
+	background-color: #708090;
 }

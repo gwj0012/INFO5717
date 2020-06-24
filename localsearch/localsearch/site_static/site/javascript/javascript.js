@@ -12,7 +12,7 @@ function logoutcon() {
     if (con == true)
     {
         alert("Logged out!"),
-        location.href = "search.html"
+        location.href = "../../apps/indexing/search.html"
     }else
         alert("Logout aborted.")
 }
