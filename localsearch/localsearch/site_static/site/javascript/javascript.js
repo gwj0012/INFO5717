@@ -38,3 +38,6 @@ function delcon2()
 function importnew() {
     alert ("Imported file should be a .txt file.")
 }
+function searching() {
+	alert("Searching...")
+}
