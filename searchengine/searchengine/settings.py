@@ -12,8 +12,11 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
+from searchengine.searchengine.versioning import get_git_changeset_timestamp
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-#added the top line as the textbook instructed. This link is supposed to help with directory issues.
+# Added the top line as the textbook instructed.
+# This link is supposed to help with directory issues.
 BASE_DIR = os.path.dirname(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 )
@@ -131,4 +134,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.0/howto/static-files/
 
-STATIC_URL = '/static/'
+timestamp = get_git_changeset_timestamp(BASE_DIR)
+
+STATIC_URL = f'/static/(timestamp)/'
