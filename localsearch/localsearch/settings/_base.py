@@ -38,7 +38,7 @@ BASE_DIR = os.path.dirname(
 SECRET_KEY = 'xosak=#o+jyg*yhx$&4-%@xb8xab*3-_@xi)5=*d5o(*#=b=+p'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = []
 
