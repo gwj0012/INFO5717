@@ -14,6 +14,16 @@ import os
 
 from searchengine.searchengine.versioning import get_git_changeset_timestamp
 
+from django.core.exceptions import ImproperlyConfigured
+
+def get_secret(setting) :
+    """Get the secret cariable or return explicit exception."""
+    try :
+        return os.environ(setting)
+    except KeyError :
+        error_msg = f'Set the {setting} environment variable.'
+        raise ImproperlyConfigured(error_msg)
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 # Added the top line as the textbook instructed.
 # This link is supposed to help with directory issues.
@@ -25,7 +35,7 @@ BASE_DIR = os.path.dirname(
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = '=&dx2n52dk%b9wvirt)ozk#iokoh8xc1v&4$ea**eyo^$+%+j9'
+SECRET_KEY = get_secret('=&dx2n52dk%b9wvirt)ozk#iokoh8xc1v&4$ea**eyo^$+%+j9')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
