@@ -3,7 +3,7 @@
 body {
     font-family: "arial", "sans=serif";
     border: none;
-    background-image: url("../img/triangle-mosaic.png");
+    background-image: url("../static/images/triangle-mosaic.png");
 }
 p {
 	font-size: 12pt;
@@ -25,7 +25,7 @@ p {
     background-size: auto;
     color: white;
     border: none;
-    background-image: url("../img/mosaic.png");
+    background-image: url("../static/images/mosaic.png");
     font-style: normal;
     font-weight: 400;
 }
