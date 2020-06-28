@@ -51,6 +51,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'core',
+    'indexing',
+    'plaintext',
+    'usercontrol'
 ]
 
 MIDDLEWARE = [
@@ -96,7 +100,11 @@ WSGI_APPLICATION = 'localsearch.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'pydb',
+        'USER': 'root',
+        'PASSWORD': 'python5717',
+        'HOST': 'localhost',
+        'PORT': '3306'
     }
 }
 
