@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'usercontrol',
     'searchenginein',
+    'search',
 ]
 
 MIDDLEWARE = [
@@ -66,7 +67,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'searchengine.urls'
+# ROOT_URLCONF = 'searchengine.urls'
 
 TEMPLATES = [
     {
