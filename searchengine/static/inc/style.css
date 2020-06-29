@@ -76,3 +76,9 @@ p {
 tr:hover {
 	background-color: #708090;
 }
+h1 {
+    font-family: abril-fatface;
+    font-size: 22pt;
+    font-weight: 400;
+    border-bottom: dashed;
+}
