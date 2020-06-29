@@ -19,7 +19,7 @@ from django.core.exceptions import ImproperlyConfigured
 def get_secret(setting) :
     """Get the secret cariable or return explicit exception."""
     try :
-        return os.environ(setting)
+        return os.environ
     except KeyError :
         error_msg = f'Set the {setting} environment variable.'
         raise ImproperlyConfigured(error_msg)
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'usercontrol',
+    'searchengine',
 ]
 
 MIDDLEWARE = [
@@ -151,4 +152,4 @@ USE_TZ = True
 
 timestamp = get_git_changeset_timestamp(BASE_DIR)
 
-STATIC_URL = f'/static/(timestamp)/'
+STATIC_URL = f'/static/{timestamp}/'
