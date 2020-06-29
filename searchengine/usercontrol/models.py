@@ -1,5 +1,6 @@
 from django.db import models
 
+
 # Create your models here.
 
 class TUser(models.Model):
@@ -8,3 +9,6 @@ class TUser(models.Model):
     password = models.CharField(max_length=45)
     security_question = models.CharField(max_length=100)
     security_answer = models.CharField(max_length=100)
+
+    class Meta:
+        db_table = 'TUser'
