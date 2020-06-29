@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.0/ref/settings/
 
 import os
 
-from searchengine.searchengine.versioning import get_git_changeset_timestamp
+from searchengine.searchenginein.versioning import get_git_changeset_timestamp
 
 from django.core.exceptions import ImproperlyConfigured
 
@@ -53,6 +53,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'usercontrol',
+    'searchenginein',
     'searchengine',
 ]
 
