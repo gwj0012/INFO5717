@@ -1,6 +1,6 @@
 import pymysql
 
-db=pymysql.connect('127.0.0.1', 'root', 'python5717', 'database')
+db=pymysql.connect('localhost', 'root', 'python5717', 'pythondatabase')
 
 cursor = db.cursor()
 cursor.execute("select version()")

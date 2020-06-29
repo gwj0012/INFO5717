@@ -106,7 +106,7 @@ WSGI_APPLICATION = 'searchengine.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pydb',
+        'NAME': 'pythondatabase',
         'USER' : 'root',
         'PASSWORD' : 'python5717',
         'HOST' : '127.0.0.1',
