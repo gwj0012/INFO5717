@@ -67,7 +67,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-# ROOT_URLCONF = 'searchengine.urls'
+ROOT_URLCONF = 'searchenginein.urls'
 
 TEMPLATES = [
     {
@@ -97,7 +97,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-WSGI_APPLICATION = 'wsgi.application'
+# WSGI_APPLICATION = 'searchengine.wsgi.application'
 
 
 # Database
