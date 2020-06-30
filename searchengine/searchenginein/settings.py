@@ -97,7 +97,7 @@ STATICFILES_DIRS = [
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-WSGI_APPLICATION = 'searchengine.wsgi.application'
+WSGI_APPLICATION = 'wsgi.application'
 
 
 # Database
