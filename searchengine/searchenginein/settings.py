@@ -55,6 +55,7 @@ INSTALLED_APPS = [
     'usercontrol',
     'searchenginein',
     'search',
+    'indexing',
 ]
 
 MIDDLEWARE = [
