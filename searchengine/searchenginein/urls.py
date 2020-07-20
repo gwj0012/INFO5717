@@ -20,4 +20,7 @@ from usercontrol.views import userview
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('usercontrol/login', userview.LoginView),
+    path('usercontrol/newpassword', userview.NewPassword),
+    path('usercontrol/passwordrecovery', userview.Password),
+
 ]
