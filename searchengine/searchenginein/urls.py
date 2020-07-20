@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path
 import usercontrol.views as userview
 import search.views as search
+import indexing.views as indexing
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -25,5 +26,6 @@ urlpatterns = [
     path('usercontrol/passwordrecovery', userview.Password),
     path('search/display', search.Display),
     path('search/searchresults', search.SearchResults),
-
+    path('indexing/inportnew', indexing.Import),
+    path('indexing/textmanagement', indexing.Management),
 ]
