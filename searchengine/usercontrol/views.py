@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponseRedirect
 from usercontrol.models import TUser
 from usercontrol.userform import UserForm
 
@@ -12,3 +12,8 @@ def NewPassword(request):
 
 def Password(request):
     return render(request, 'passwordrecovery.html')
+
+def Logout(request):
+    del request.session['username']
+    del request.session['password']
+    return HttpResponseRedirect('/usercontrol/login.html')
