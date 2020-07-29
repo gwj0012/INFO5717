@@ -1,4 +1,6 @@
 from django.shortcuts import render
+from usercontrol.models import TUser
+from usercontrol.userform import UserForm
 
 # Create your views here.
 
@@ -9,4 +11,4 @@ def NewPassword(request):
     return render(request, 'newpasssword.html')
 
 def Password(request):
-    returnrender(request, 'passwordrecovery.html')
+    return render(request, 'passwordrecovery.html')
