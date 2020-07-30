@@ -17,7 +17,7 @@ def LoginAction(request):
             password = form.cleaned_data['password']
 
             user = TUser.objects.filter(username=username, password=password)
-            print(userid)
+            print(user)
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
