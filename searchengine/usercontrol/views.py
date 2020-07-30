@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponseRedirect
 from usercontrol.models import TUser
-from usercontrol.userform import UserForm
+from usercontrol.userform import UserForm, NewPass, Recovery
 
 # Create your views here.
 
@@ -30,7 +30,12 @@ def LoginAction(request):
         return HttpResponseRedirect('/usercontrol/login')
 
 def NewPassword(request):
-    return render(request, 'newpasssword.html')
+    newpass = NewPass()
+    context = {'newpass':newpass}
+    return render(request, 'newpasssword.html', context)
+
+def NewPassAction(request):
+    if
 
 def Password(request):
     return render(request, 'passwordrecovery.html')
