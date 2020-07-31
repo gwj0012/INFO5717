@@ -35,7 +35,13 @@ def NewPassword(request):
     return render(request, 'newpasssword.html', context)
 
 def NewPassAction(request):
-    if
+    if request.method == "POST"
+        form = NewPass(request.POST)
+        if form.is_valid():
+            new_password = form.cleaned_data['new_password']
+            again = form.cleaned_data['again']
+
+            newpassword = TUser.objects.filter
 
 def Password(request):
     return render(request, 'passwordrecovery.html')
