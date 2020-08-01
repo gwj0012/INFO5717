@@ -40,6 +40,7 @@ def NewPassAction(request):
         if form.is_valid():
             new_password = form.cleaned_data['new_password']
             again = form.cleaned_data['again']
+            new_password == again
 
             newpassword = TUser.objects.filter
 
