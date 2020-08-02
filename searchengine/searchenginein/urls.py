@@ -28,4 +28,5 @@ urlpatterns = [
     path('search/searchresults', search.SearchResults),
     path('indexing/inportnew', indexing.Import),
     path('indexing/textmanagement', indexing.Management),
+    # path(r'captcha/', include('captcha.urls')),
 ]

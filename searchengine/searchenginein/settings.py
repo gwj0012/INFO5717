@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'searchenginein',
     'search',
     'indexing',
-    'captcha',
+    # 'captcha',
 ]
 
 MIDDLEWARE = [
