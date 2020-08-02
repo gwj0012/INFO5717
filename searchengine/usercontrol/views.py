@@ -1,6 +1,7 @@
 from django.shortcuts import render, HttpResponseRedirect
-from usercontrol.models import TUser
+from usercontrol.models import TUser, HttpJavascriptResponse
 from usercontrol.userform import UserForm, NewPass, Recovery
+import pymysql
 
 # Create your views here.
 
@@ -35,14 +36,29 @@ def NewPassword(request):
     return render(request, 'newpasssword.html', context)
 
 def NewPassAction(request):
-    if request.method == "POST"
+    if request.method == "POST":
         form = NewPass(request.POST)
         if form.is_valid():
             new_password = form.cleaned_data['new_password']
             again = form.cleaned_data['again']
-            new_password == again
+            if new_password == again:
 
-            newpassword = TUser.objects.filter
+                sql = 'update TUser set passowrd="str(new_password)" where iduser="1"'
+                print(sql)
+                db = pymysql.connect('localhost', 'root', 'python5717', 'pydb')
+                cursor = db.cursor()
+                cursor.execute(sql)
+                db.comit()
+                cursor.close()
+                db.close()
+                return HttpJavascriptResponse("static.inc.javascript.savedpass();")
+            else:
+                HttpResponseRedirect("/usercontrol/newpassword")
+        else:
+            HttpResponseRedirect("/usercontrol/newpassword")
+    else:
+        HttpResponseRedirect("/usercontrol/newpassword")
+
 
 def Password(request):
     return render(request, 'passwordrecovery.html')

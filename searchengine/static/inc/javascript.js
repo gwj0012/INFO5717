@@ -41,3 +41,7 @@ function importnew() {
 function searching() {
 	alert("Searching...")
 }
+function savedpass() {
+    alert("Password has been successfully saved!"),
+    location.href = "searchengine/usercontrol/templates/login.html"
+}
