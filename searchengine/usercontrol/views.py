@@ -8,7 +8,7 @@ import pymysql
 def LoginView(request):
     userform = UserForm()
     context = {'userform':userform}
-    return render(request, 'login.html', context)
+    return render(request, 'templates/login.html', context)
 
 def LoginAction(request):
     if request.method == "POST":
@@ -22,7 +22,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return render(request, 'textmanagement.html')
+                return render(request, 'templates/textmanagement.html')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
@@ -33,7 +33,7 @@ def LoginAction(request):
 def NewPassword(request):
     newpass = NewPass()
     context = {'newpass':newpass}
-    return render(request, 'newpasssword.html', context)
+    return render(request, 'templates/newpasssword.html', context)
 
 def NewPassAction(request):
     if request.method == "POST":
@@ -61,7 +61,7 @@ def NewPassAction(request):
 
 
 def Password(request):
-    return render(request, 'passwordrecovery.html')
+    return render(request, 'templates/passwordrecovery.html')
 
 def Logout(request):
     del request.session['username']

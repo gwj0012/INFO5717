@@ -7,8 +7,8 @@ class UserForm(forms.Form):
     # captcha = CaptchaField()
 
 class NewPass(forms.Form):
-    new_password = forms.CharField(label='new_password', max_length=100, required=True, widget=forms.PasswordImput)
-    again = forms.CharField(label='again', max_length=100, required=True, widget=forms.PasswordImput)
+    new_password = forms.CharField(label='new_password', max_length=100, required=True, widget=forms.PasswordInput)
+    again = forms.CharField(label='again', max_length=100, required=True, widget=forms.PasswordInput)
 
 class Recovery(forms.Form):
     username = forms.CharField(label='username', max_length=100, required=True)
