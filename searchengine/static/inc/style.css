@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+{% load static %}
 body {
     font-family: "arial", "sans=serif";
     border: none;
