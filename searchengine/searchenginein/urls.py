@@ -15,15 +15,15 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import usercontrol.views as userview
+import usercontrol.views as view
 import search.views as search
 import indexing.views as indexing
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('usercontrol/login', userview.LoginView),
-    path('usercontrol/newpassword', userview.NewPassword),
-    path('usercontrol/passwordrecovery', userview.Password),
+    path('usercontrol/login', view.LoginView),
+    path('usercontrol/newpassword', view.NewPassword),
+    path('usercontrol/passwordrecovery', view.Password),
     path('search/display', search.Display),
     path('search/searchresults', search.SearchResults),
     path('indexing/inportnew', indexing.Import),
