@@ -20,6 +20,7 @@ import search.views as search
 import indexing.views as indexing
 
 urlpatterns = [
+    path('', view.LoginView),
     path('admin/', admin.site.urls),
     path('usercontrol/login', view.LoginView),
     path('usercontrol/newpassword', view.NewPassword),
