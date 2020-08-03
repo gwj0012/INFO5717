@@ -22,7 +22,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return render(request, '../../indexing/templates/textmanagement.html')
+                return HttpResponseRedirect('/indexing/textmanagement')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
@@ -82,7 +82,7 @@ def Questions(request):
             cursor.close()
             db.close()
             if sec == security and answer == ans:
-                return render(request, '../templates/newpassword.html')
+                return HttpResponseRedirect('/usercontrol/login')
             else:
                 HttpResponseRedirect('/usercontrol/newpassword')
         else:
