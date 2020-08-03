@@ -13,11 +13,14 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+import indexing.views as indexing
+import search.views as search
+import usercontrol.views as view
 from django.contrib import admin
 from django.urls import path, include
-import usercontrol.views as view
-import search.views as search
-import indexing.views as indexing
+from django.conf.urls.static import static
+
+from . import settings
 
 urlpatterns = [
     path('', view.LoginView),
@@ -28,4 +31,4 @@ urlpatterns = [
     path('indexing/inportnew', indexing.Import),
     path('indexing/textmanagement', indexing.Management),
     path(r'captcha/', include('captcha.urls')),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
