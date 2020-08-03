@@ -22,9 +22,7 @@ import indexing.views as indexing
 urlpatterns = [
     path('', view.LoginView),
     path('admin/', admin.site.urls),
-    path('usercontrol/login', view.LoginView),
-    path('usercontrol/newpassword', view.NewPassword),
-    path('usercontrol/passwordrecovery', view.Password),
+    path('usercontrol/', include('usercontrol.urls')),
     path('search/display', search.Display),
     path('search/searchresults', search.SearchResults),
     path('indexing/inportnew', indexing.Import),

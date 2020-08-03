@@ -1,6 +1,6 @@
 from django.shortcuts import render, HttpResponseRedirect
-from usercontrol.models import TUser, HttpJavascriptResponse
-from usercontrol.userform import UserForm, NewPass, Recovery
+from .models import TUser, HttpJavascriptResponse
+from .userform import UserForm, NewPass, Recovery
 import pymysql
 
 # Create your views here.
@@ -12,7 +12,7 @@ def LoginView(request):
 
 def LoginAction(request):
     if request.method == "POST":
-        form=UserForm(request.POST)
+        form = UserForm(request.POST)
         if form.is_valid():
             username = form.cleaned_data['username']
             password = form.cleaned_data['password']
@@ -22,7 +22,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return render(request, '../indexing/templates/textmanagement.html')
+                return render(request, '../../indexing/templates/textmanagement.html')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
@@ -33,7 +33,7 @@ def LoginAction(request):
 def NewPassword(request):
     newpass = NewPass()
     context = {'newpass':newpass}
-    return render(request, 'templates/newpasssword.html', context)
+    return render(request, '../templates/newpasssword.html', context)
 
 def NewPassAction(request):
     if request.method == "POST":
@@ -61,7 +61,9 @@ def NewPassAction(request):
 
 
 def Password(request):
-    return render(request, 'templates/passwordrecovery.html')
+    recovery = Recovery()
+    context = {'recovery':recovery}
+    return render(request, '../templates/passwordrecovery.html', context)
 
 def Logout(request):
     del request.session['username']
