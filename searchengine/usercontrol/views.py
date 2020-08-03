@@ -22,7 +22,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return render(request, 'templates/textmanagement.html')
+                return render(request, '../indexing/templates/textmanagement.html')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
