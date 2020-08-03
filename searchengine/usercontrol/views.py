@@ -65,6 +65,31 @@ def Password(request):
     context = {'recovery':recovery}
     return render(request, '../templates/passwordrecovery.html', context)
 
+def Questions(request):
+    if request.method == 'POST':
+        form = Recovery(request.POST)
+        if form.is_valid():
+            username = form.POST.get['username']
+            security = form.POST.get['security']
+            answer = form.POST.get['answer']
+
+            sqlquestion = 'select security_question from TUser where username="str(username)"'
+            sqlanswer = 'select security_answer from TUser where username="str(username)"'
+            db = pymysql.connect('localhost', 'root', 'python5717', 'pydb')
+            cursor = db.cursor()
+            sec = cursor.execute(sqlquestion)
+            ans = cursor.execute(sqlanswer)
+            cursor.close()
+            db.close()
+            if sec == security and answer == ans:
+                return render(request, '../templates/newpassword.html')
+            else:
+                HttpResponseRedirect('/usercontrol/newpassword')
+        else:
+            HttpResponseRedirect('/usercontrol/newpassword')
+    else:
+        HttpResponseRedirect('usercontrol/newpassword')
+
 def Logout(request):
     del request.session['username']
     del request.session['password']
