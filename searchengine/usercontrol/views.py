@@ -8,7 +8,7 @@ import pymysql
 def LoginView(request):
     userform = UserForm()
     context = {'userform':userform}
-    return render(request, 'templates/login.html', context)
+    return render(request, '../templates/login.html', context)
 
 def LoginAction(request):
     if request.method == "POST":

@@ -1,5 +1,5 @@
 from django import forms
-# from captcha.fields import CaptchaField
+from captcha.fields import CaptchaField
 
 class UserForm(forms.Form):
     username = forms.CharField(label="username", max_length=100, required=True)
