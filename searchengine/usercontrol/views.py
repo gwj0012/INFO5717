@@ -1,6 +1,8 @@
 from django.shortcuts import render, HttpResponseRedirect
 from .models import TUser, HttpJavascriptResponse
-from .userform import UserForm, NewPass, Recovery
+from .userform import UserForm
+from .recovery import Recovery
+from .newpass import NewPass
 import pymysql
 
 # Create your views here.
@@ -22,7 +24,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return HttpResponseRedirect('/indexing/textmanagement')
+                return render(request, '../../indexing/templates/textmanagement.html')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
@@ -82,13 +84,13 @@ def Questions(request):
             cursor.close()
             db.close()
             if sec == security and answer == ans:
-                return HttpResponseRedirect('/usercontrol/login')
+                return render(request, '../templates/newpassword.html')
             else:
-                HttpResponseRedirect('/usercontrol/newpassword')
+                HttpResponseRedirect('/usercontrol/password')
         else:
-            HttpResponseRedirect('/usercontrol/newpassword')
+            HttpResponseRedirect('/usercontrol/password')
     else:
-        HttpResponseRedirect('usercontrol/newpassword')
+        HttpResponseRedirect('usercontrol/password')
 
 def Logout(request):
     del request.session['username']

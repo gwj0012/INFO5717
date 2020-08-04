@@ -10,4 +10,5 @@ urlpatterns = [
     path('newpassword', views.NewPassword),
     path('newpassaction', views.NewPassAction),
     path('password', views.Password),
+    path('questions', views.Questions)
 ]

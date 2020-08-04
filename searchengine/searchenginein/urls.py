@@ -24,6 +24,7 @@ from . import settings
 
 urlpatterns = [
     path('', view.LoginView),
+    path('search/search', search.Search),
     path('admin/', admin.site.urls),
     path('usercontrol/', include('usercontrol.urls')),
     path('search/display', search.Display),
@@ -31,4 +32,4 @@ urlpatterns = [
     path('indexing/inportnew', indexing.Import),
     path('indexing/textmanagement', indexing.Management),
     path(r'captcha/', include('captcha.urls')),
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+] + static(settings.STATIC_URL)

@@ -7,3 +7,6 @@ def Display(request):
 
 def SearchResults(request):
     return render(request, 'searchresults.html')
+
+def Search(request):
+    return render(request, '../templates/search.html')
