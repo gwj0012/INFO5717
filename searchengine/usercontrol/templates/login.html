@@ -1,6 +1,5 @@
 
 <!doctype html>
-{% load static %}
 <html>
 <head>
 	<meta charset="UTF-8">
@@ -28,11 +27,11 @@
 			<fieldset>
 			<legend class="formtitle">Login</legend><br>
 	<label class="login">Username:</label>
-<!--		<input type="text" name="textfield" id="textfield" required value="userform.username }}">-->
+<!--		<input type="text" name="textfield" id="textfield" required>-->
 				{{ userform.username }}
 				<br><br>
 	<label class="login">Password:</label>
-<!--		<input class="password" name="password" id="password" required value=" userform.password }}">-->
+<!--		<input class="password" name="password" id="password" required>-->
 				{{ userform.password }}
 				<br><br>
 				{{ userform.captcha }}
