@@ -1,10 +1,8 @@
-from django.db import models
-
 # Create your models here.
 
 from django.db import models
 
-class TText(models.Model):
+class TTexts(models.Model):
     idtext = models.AutoField(primary_key=True)
     title = models.CharField(max_length=45)
     author = models.CharField(max_length=45)
@@ -14,4 +12,4 @@ class TText(models.Model):
     centents = models.TextField
 
     class Meta:
-        db_table = 'TText'
+        db_table = 'TTexts'

@@ -15,4 +15,4 @@ class TUser(models.Model):
 
 class HttpJavascriptResponse(HttpResponse):
     def __init__(self, content):
-       HttpResponse.__init__(self, content, mimetype="text/javascript")
+       HttpResponse.__init__(self, content, content_type="text/javascript")

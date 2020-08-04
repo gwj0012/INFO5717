@@ -27,9 +27,10 @@ urlpatterns = [
     path('search/search', search.Search),
     path('admin/', admin.site.urls),
     path('usercontrol/', include('usercontrol.urls')),
+    path('usercontrol/loginaction', view.LoginAction),
     path('search/display', search.Display),
     path('search/searchresults', search.SearchResults),
     path('indexing/inportnew', indexing.Import),
     path('indexing/textmanagement', indexing.Management),
     path(r'captcha/', include('captcha.urls')),
-] + static(settings.STATIC_URL)
+]

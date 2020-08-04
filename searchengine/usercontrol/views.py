@@ -24,7 +24,7 @@ def LoginAction(request):
             if len(user) > 0 :
                 request.session['username'] = user[0].username
                 request.session['password'] = user[0].password
-                return render(request, '../../indexing/templates/textmanagement.html')
+                return HttpResponseRedirect('/indexing/textmanagement')
             else:
                 return HttpResponseRedirect('/usercontrol/login')
         else:
@@ -35,7 +35,7 @@ def LoginAction(request):
 def NewPassword(request):
     newpass = NewPass()
     context = {'newpass':newpass}
-    return render(request, '../templates/newpasssword.html', context)
+    return render(request, '../templates/newpassword.html', context)
 
 def NewPassAction(request):
     if request.method == "POST":
@@ -45,21 +45,21 @@ def NewPassAction(request):
             again = form.cleaned_data['again']
             if new_password == again:
 
-                sql = 'update TUser set passowrd="str(new_password)" where iduser="1"'
+                sql = 'update TUser set password="str(new_password)" where iduser="1"'
                 print(sql)
                 db = pymysql.connect('localhost', 'root', 'python5717', 'pydb')
                 cursor = db.cursor()
                 cursor.execute(sql)
-                db.comit()
+                db.commit()
                 cursor.close()
                 db.close()
                 return HttpJavascriptResponse("static.inc.javascript.savedpass();")
             else:
-                HttpResponseRedirect("/usercontrol/newpassword")
+                return HttpResponseRedirect("/usercontrol/newpassword")
         else:
-            HttpResponseRedirect("/usercontrol/newpassword")
+            return HttpResponseRedirect("/usercontrol/newpassword")
     else:
-        HttpResponseRedirect("/usercontrol/newpassword")
+        return HttpResponseRedirect("/usercontrol/newpassword")
 
 
 def Password(request):
@@ -84,7 +84,7 @@ def Questions(request):
             cursor.close()
             db.close()
             if sec == security and answer == ans:
-                return render(request, '../templates/newpassword.html')
+                return HttpResponseRedirect
             else:
                 HttpResponseRedirect('/usercontrol/password')
         else:
@@ -93,6 +93,6 @@ def Questions(request):
         HttpResponseRedirect('usercontrol/password')
 
 def Logout(request):
-    del request.session['username']
-    del request.session['password']
+    # del request.session['username']
+    # del request.session['password']
     return HttpResponseRedirect('/usercontrol/login')

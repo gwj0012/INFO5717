@@ -9,20 +9,21 @@
 	<meta name="keywords" content="user login, search engine, local search">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>User Login</title>
-	<link rel="stylesheet" type="text/css" href="/static/inc/style.css" />
+	<link rel="stylesheet" type="text/css" href="../../static/inc/style.css" />
 <!--	<link rel="stylesheet" type="text/css" href=" static 'inc/style.css' }}"/>-->
-	<script language="JavaScript" src="/static/inc/javascript.js"></script>
+	<script language="JavaScript" src="../../static/inc/javascript.js"></script>
 <script>var __adobewebfontsappname__="dreamweaver"</script>
 	<script src="http://use.edgefonts.net/abril-fatface:n4:default.js" type="text/javascript"></script>
 </head>
 	<body onload="authuser()">
 	<header class="heading">
 		Local Search Engine<br>
-			<button class="headbutton" title="New Search" onClick="/search/search">
-				New Search</button>
+			<form action="/search/search">
+				<button class="headbutton" title="New Search" onClick="/search/search">
+					New Search</button></form>
 	</header>
 	<div class="column1"><p><br></p></div>
-	<form class="login column2" action="/usercontol/loginaction" method="POST" onsubmit="return check()">
+	<form class="login column2" action="/indexing/textmanagement" method="POST" onsubmit="return check()">
 		{% csrf_token %}
 			<fieldset>
 			<legend class="formtitle">Login</legend><br>
